@@ -1,6 +1,6 @@
 module "cosmosdb" {
   source  = "app.terraform.io/gerald-tfc-business/cosmosdb/azure"
-  version = "0.0.5"
+  version = "0.0.6"
 
   db = "${var.db}"
   region = "${var.region}"
